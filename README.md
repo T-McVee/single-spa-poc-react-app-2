@@ -1,0 +1,11 @@
+- clone all 4 repos into a new directory
+- rename the single-spa-poc-api folder to 'common'
+- rename the single-spa-poc-react-app-2 folder to 'react-app-2'
+- cd into each folder and run npm i to install required dependencies
+- cd into common and run npm start
+- cd into react-app-2 and run npm start.
+- cd into single-spa-poc-react-app-1 and run npm start.
+- cd into single-spa-poc-root-config and run npm start.
+- open single-spa-poc-root-config/src/index.ejs and update lines 54-56 with the port numbers each service is running on.
+- in a browser navigate to the address where single-spa-poc-root-config is running.
+- success?! 
